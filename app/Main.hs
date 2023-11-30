@@ -31,7 +31,14 @@ main = do
     ["db", "showtables", dbName] -> do
       conn <- open dbName
       tables <- getTableNames conn
+      putStr "\n"
       mapM_ print tables
+      putStr "\n"
+      close conn
+    ["db", "insert", dbName, tableName, fieldValuesStr] -> do
+      let fieldValues = splitOn "," fieldValuesStr
+      conn <- open dbName
+      insertIntoTable conn tableName fieldValues
       close conn
     -- ["db", "show", dbName, tableName] -> do
     --   conn <- open dbName
