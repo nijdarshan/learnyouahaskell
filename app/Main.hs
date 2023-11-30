@@ -80,7 +80,7 @@ main = do
     --   dropAllTables conn
     --   close conn
     -- ["db", "dropall", dbName, "confirm", "really", "yes"]
-    _ -> putStrLn "Invalid command"
+    --_ -> putStrLn "Invalid command"
     ["insert"] -> do
       conn <- open "mydata.db"
       dataText <- fetchData
