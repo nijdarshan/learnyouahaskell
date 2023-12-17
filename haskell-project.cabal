@@ -1,6 +1,6 @@
 cabal-version: 2.2
 
--- This file has been generated from package.yaml by hpack version 0.35.2.
+-- This file has been generated from package.yaml by hpack version 0.36.0.
 --
 -- see: https://github.com/sol/hpack
 
@@ -30,77 +30,84 @@ library
       Lib
       Parse
       Types
-      Main
   other-modules:
       Paths_haskell_project
   autogen-modules:
       Paths_haskell_project
   hs-source-dirs:
       src
-      app
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       aeson
-    , base >=4.7 && <5
+    , aeson-pretty
+    , base
     , bytestring
     , containers
+    , data-default
     , directory
-    , filepath
-    , html-conduit
+    , http-client
+    , http-client-tls
     , http-conduit
-    , split
+    , scalpel
     , sqlite-simple
     , tagsoup
     , text
+    , unordered-containers
   default-language: Haskell2010
 
 executable haskell-project-exe
   main-is: Main.hs
   other-modules:
-      Database
-      Fetch
-      Lib
-      Parse
-      Types
       Paths_haskell_project
   autogen-modules:
       Paths_haskell_project
   hs-source-dirs:
       app
-      src
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       aeson
-    , base >=4.7 && <5
+    , aeson-pretty
+    , base
     , bytestring
     , containers
+    , data-default
     , directory
-    , filepath
-    , html-conduit
+    , haskell-project
+    , http-client
+    , http-client-tls
     , http-conduit
-    , split
+    , scalpel
     , sqlite-simple
     , tagsoup
     , text
+    , unordered-containers
   default-language: Haskell2010
 
 test-suite haskell-project-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      Database
-      Fetch
-      Lib
-      Parse
-      Types
       Paths_haskell_project
   autogen-modules:
       Paths_haskell_project
   hs-source-dirs:
       test
-      src
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      aeson
+    , aeson-pretty
+    , base
+    , bytestring
+    , containers
+    , data-default
+    , directory
     , haskell-project
+    , http-client
+    , http-client-tls
+    , http-conduit
+    , scalpel
+    , sqlite-simple
+    , tagsoup
+    , text
+    , unordered-containers
   default-language: Haskell2010

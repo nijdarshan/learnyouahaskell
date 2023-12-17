@@ -1,0 +1,104 @@
+{
+    "A Fistful of Monads": {
+        "Getting our feet wet with Maybe": "http://learnyouahaskell.com/a-fistful-of-monads#getting-our-feet-wet-with-maybe",
+        "Monad laws": "http://learnyouahaskell.com/a-fistful-of-monads#monad-laws",
+        "The Monad type class": "http://learnyouahaskell.com/a-fistful-of-monads#the-monad-type-class",
+        "The list monad": "http://learnyouahaskell.com/a-fistful-of-monads#the-list-monad",
+        "Walk the line": "http://learnyouahaskell.com/a-fistful-of-monads#walk-the-line",
+        "do notation": "http://learnyouahaskell.com/a-fistful-of-monads#do-notation"
+    },
+    "For a Few Monads More": {
+        "Error error on the wall": "http://learnyouahaskell.com/for-a-few-monads-more#error",
+        "Making monads": "http://learnyouahaskell.com/for-a-few-monads-more#making-monads",
+        "Reader? Ugh, not this joke again.": "http://learnyouahaskell.com/for-a-few-monads-more#reader",
+        "Some useful monadic functions": "http://learnyouahaskell.com/for-a-few-monads-more#useful-monadic-functions",
+        "Tasteful stateful computations": "http://learnyouahaskell.com/for-a-few-monads-more#state",
+        "Writer? I hardly know her!": "http://learnyouahaskell.com/for-a-few-monads-more#writer"
+    },
+    "Functionally Solving Problems": {
+        "Heathrow to London": "http://learnyouahaskell.com/functionally-solving-problems#heathrow-to-london",
+        "Reverse Polish notation calculator": "http://learnyouahaskell.com/functionally-solving-problems#reverse-polish-notation-calculator"
+    },
+    "Functors, Applicative Functors and Monoids": {
+        "Applicative functors": "http://learnyouahaskell.com/functors-applicative-functors-and-monoids#applicative-functors",
+        "Functors redux": "http://learnyouahaskell.com/functors-applicative-functors-and-monoids#functors-redux",
+        "Monoids": "http://learnyouahaskell.com/functors-applicative-functors-and-monoids#monoids",
+        "The newtype keyword": "http://learnyouahaskell.com/functors-applicative-functors-and-monoids#the-newtype-keyword"
+    },
+    "Higher Order Functions": {
+        "Curried functions": "http://learnyouahaskell.com/higher-order-functions#curried-functions",
+        "Function application with $": "http://learnyouahaskell.com/higher-order-functions#function-application",
+        "Function composition": "http://learnyouahaskell.com/higher-order-functions#composition",
+        "Lambdas": "http://learnyouahaskell.com/higher-order-functions#lambdas",
+        "Maps and filters": "http://learnyouahaskell.com/higher-order-functions#maps-and-filters",
+        "Only folds and horses": "http://learnyouahaskell.com/higher-order-functions#folds",
+        "Some higher-orderism is in order": "http://learnyouahaskell.com/higher-order-functions#higher-orderism"
+    },
+    "Input and Output": {
+        "Bytestrings": "http://learnyouahaskell.com/input-and-output#bytestrings",
+        "Command line arguments": "http://learnyouahaskell.com/input-and-output#command-line-arguments",
+        "Exceptions": "http://learnyouahaskell.com/input-and-output#exceptions",
+        "Files and streams": "http://learnyouahaskell.com/input-and-output#files-and-streams",
+        "Hello, world!": "http://learnyouahaskell.com/input-and-output#hello-world",
+        "Randomness": "http://learnyouahaskell.com/input-and-output#randomness"
+    },
+    "Introduction": {
+        "About this tutorial": "http://learnyouahaskell.com/introduction#about-this-tutorial",
+        "So what's Haskell?": "http://learnyouahaskell.com/introduction#so-whats-haskell",
+        "What you need to dive in": "http://learnyouahaskell.com/introduction#what-you-need"
+    },
+    "Making Our Own Types and Typeclasses": {
+        "A yes-no typeclass": "http://learnyouahaskell.com/making-our-own-types-and-typeclasses#a-yes-no-typeclass",
+        "Algebraic data types intro": "http://learnyouahaskell.com/making-our-own-types-and-typeclasses#algebraic-data-types",
+        "Derived instances": "http://learnyouahaskell.com/making-our-own-types-and-typeclasses#derived-instances",
+        "Kinds and some type-foo": "http://learnyouahaskell.com/making-our-own-types-and-typeclasses#kinds-and-some-type-foo",
+        "Record syntax": "http://learnyouahaskell.com/making-our-own-types-and-typeclasses#record-syntax",
+        "Recursive data structures": "http://learnyouahaskell.com/making-our-own-types-and-typeclasses#recursive-data-structures",
+        "The Functor typeclass": "http://learnyouahaskell.com/making-our-own-types-and-typeclasses#the-functor-typeclass",
+        "Type parameters": "http://learnyouahaskell.com/making-our-own-types-and-typeclasses#type-parameters",
+        "Type synonyms": "http://learnyouahaskell.com/making-our-own-types-and-typeclasses#type-synonyms",
+        "Typeclasses 102": "http://learnyouahaskell.com/making-our-own-types-and-typeclasses#typeclasses-102"
+    },
+    "Modules": {
+        "Data.Char": "http://learnyouahaskell.com/modules#data-char",
+        "Data.List": "http://learnyouahaskell.com/modules#data-list",
+        "Data.Map": "http://learnyouahaskell.com/modules#data-map",
+        "Data.Set": "http://learnyouahaskell.com/modules#data-set",
+        "Loading modules": "http://learnyouahaskell.com/modules#loading-modules",
+        "Making our own modules": "http://learnyouahaskell.com/modules#making-our-own-modules"
+    },
+    "Recursion": {
+        "A few more recursive functions": "http://learnyouahaskell.com/recursion#a-few-more-recursive-functions",
+        "Hello recursion!": "http://learnyouahaskell.com/recursion#hello-recursion",
+        "Maximum awesome": "http://learnyouahaskell.com/recursion#maximum-awesome",
+        "Quick, sort!": "http://learnyouahaskell.com/recursion#quick-sort",
+        "Thinking recursively": "http://learnyouahaskell.com/recursion#thinking-recursively"
+    },
+    "Starting Out": {
+        "An intro to lists": "http://learnyouahaskell.com/starting-out#an-intro-to-lists",
+        "Baby's first functions": "http://learnyouahaskell.com/starting-out#babys-first-functions",
+        "I'm a list comprehension": "http://learnyouahaskell.com/starting-out#im-a-list-comprehension",
+        "Ready, set, go!": "http://learnyouahaskell.com/starting-out#ready-set-go",
+        "Texas ranges": "http://learnyouahaskell.com/starting-out#texas-ranges",
+        "Tuples": "http://learnyouahaskell.com/starting-out#tuples"
+    },
+    "Syntax in Functions": {
+        "Case expressions": "http://learnyouahaskell.com/syntax-in-functions#case-expressions",
+        "Guards, guards!": "http://learnyouahaskell.com/syntax-in-functions#guards-guards",
+        "Let it be": "http://learnyouahaskell.com/syntax-in-functions#let-it-be",
+        "Pattern matching": "http://learnyouahaskell.com/syntax-in-functions#pattern-matching",
+        "Where!?": "http://learnyouahaskell.com/syntax-in-functions#where"
+    },
+    "Types and Typeclasses": {
+        "Believe the type": "http://learnyouahaskell.com/types-and-typeclasses#believe-the-type",
+        "Type variables": "http://learnyouahaskell.com/types-and-typeclasses#type-variables",
+        "Typeclasses 101": "http://learnyouahaskell.com/types-and-typeclasses#typeclasses-101"
+    },
+    "Zippers": {
+        "A trail of breadcrumbs": "http://learnyouahaskell.com/zippers#a-trail-of-breadcrumbs",
+        "A very simple file system": "http://learnyouahaskell.com/zippers#a-very-simple-file-system",
+        "Focusing on lists": "http://learnyouahaskell.com/zippers#focusing-on-lists",
+        "Taking a walk": "http://learnyouahaskell.com/zippers#taking-a-walk",
+        "Watch your step": "http://learnyouahaskell.com/zippers#watch-your-step"
+    }
+}
